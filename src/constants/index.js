@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
+import project1 from "../assets/projects/buynowpay.png";
+import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/project-4.webp";
+import ai from "../assets/projects/ai-short-gen.png"
 
 export const HERO_CONTENT = `Computer Science graduate student with 4+ years of experience specializing in backend development and data
 engineering. Strong Object-oriented programming skills and experienced in cloud technologies, known for
@@ -55,11 +55,12 @@ export const PROJECTS = [
     location:"Univeristy at Buffalo, 2024"
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "AI Short Video Generator",
+    image: ai,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An AI application for generating short video based on the prompt given by the user.",
+    technologies: ["NextJS","Claude","Firebase","NeonDB","Drizzle","shadcn/UI" ],
+    link: 'Link - https://ai-short-video-generator-theta.vercel.app/dashboard',
   },
   {
     title: "Portfolio Website",
@@ -67,6 +68,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    link:'Link - https://anikk-portfolio.vercel.app'
   },
   {
     title: "Blogging Platform",

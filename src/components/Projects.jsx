@@ -4,6 +4,7 @@ import {motion} from "framer-motion"
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 
+
 const Projects = () => {
     const handleProjectDetails=()=>{
         
@@ -21,6 +22,10 @@ const Projects = () => {
                     <h3 onClick={handleProjectDetails} className="mb-2 font-semibold text-2xl">{project.title}</h3>
                     <h2>{project.location}</h2>
                     <p className="mb-4 text-stone-400">{project.description}</p>
+                    <div className="flex mb-5">
+                      <h4>{project.link}</h4>
+                      
+                    </div>
                     {project.technologies.map ((tech, index)=> (
                         <span className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300" key={index}>{tech}</span>
                     ))}

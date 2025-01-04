@@ -3,7 +3,11 @@ import { RiNextjsFill } from "react-icons/ri";
 import { DiMongodb } from "react-icons/di";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
+import { VscAzure } from "react-icons/vsc";
+import { RiClaudeFill } from "react-icons/ri";
 import {animate, motion} from "framer-motion"
+import { RiFirebaseFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
 
 const iconVariants =(duration)=>({
     intial: {y: -10},
@@ -39,7 +43,16 @@ const Technologies = () => {
                 <FaNodeJs className="text-7xl text-green-500"/>
             </div>
             <div className="p-4">
-                <FaNodeJs className="text-7xl text-green-500"/>
+                <VscAzure className="text-7xl text-blue-500"/>
+            </div>
+            <div className="p-4">
+                <RiClaudeFill className="text-7xl text-red-400"/>
+            </div>
+            <div className="p-4">
+                <RiFirebaseFill className="text-7xl text-red-800"/>
+            </div>
+            <div className="p-4">
+                <FaGithub className="text-7xl"/>
             </div>
 
         </div>
