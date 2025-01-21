@@ -65,6 +65,14 @@ export const PROJECTS = [
     link: 'Link - https://ai-short-video-generator-theta.vercel.app/dashboard',
   },
   {
+    title: "Email Writer AI-Assistant - Plugin",
+    image: extension,
+    description:
+      "This project involves creating an AI-powered email writer that helps users draft replies to emails they receive. The system analyzes the content, tone, and context of the received email and generates a concise, professional, and contextually relevant response. It supports customization, ensuring the reply aligns with the user's communication style and purpose, streamlining the email correspondence process efficiently.",
+    technologies: ["Springboot","Java","Chorme Extension", "NextJS", "Material UI", "llama 2.0"],
+    link: 'Link - https://github.com/Anikkk/AI-Assistant-Email-Writer'
+  },
+  {
     title: "Portfolio Website",
     image: project3,
     description:
@@ -79,14 +87,7 @@ export const PROJECTS = [
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
-  {
-    title: "Email Writer AI-Assistant - Plugin",
-    image: extension,
-    description:
-      "This project involves creating an AI-powered email writer that helps users draft replies to emails they receive. The system analyzes the content, tone, and context of the received email and generates a concise, professional, and contextually relevant response. It supports customization, ensuring the reply aligns with the user's communication style and purpose, streamlining the email correspondence process efficiently.",
-    technologies: ["Springboot","Java","Chorme Extension", "NextJS", "Material UI", "llama 2.0"],
-    link: 'Link - https://github.com/Anikkk/AI-Assistant-Email-Writer'
-  },
+  
 ];
 
 export const CONTACT = {
