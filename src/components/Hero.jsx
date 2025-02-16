@@ -1,4 +1,4 @@
-import profilePic from "../assets/anikk.webp"
+import profilePic from "../assets/anikk.png"
 import {HERO_CONTENT} from "../constants"
 import {motion} from "framer-motion"
 
