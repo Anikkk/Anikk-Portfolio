@@ -2,7 +2,7 @@ import project1 from "../assets/projects/buynowpay.png";
 import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/project-4.webp";
 import ai from "../assets/projects/ai-short-gen.png";
-import combine from  "../assets/projects/combine.gif";
+import therapy from  "../assets/projects/therapy.gif";
 import extension from  "../assets/projects/extension.gif";
 
 export const HERO_CONTENT = `Computer Science graduate student with 4+ years of experience specializing in backend development and data
@@ -49,6 +49,14 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "MindCare.ai",
+    image: therapy,
+    description:
+      "Introducing MindCare.ai: Your 24/7 AI Mental Health Companion.MindCare.ai was born during this weekend's hackathon - our vision for a voice-enabled AI mental health companion built with privacy and empathy at its core.",
+    technologies: ["ReactJS, FastAPI, Fine tuned LLM on Ollama"],
+    link : ""
+  },
+  {
     title: "Buy Now Pay Later",
     image: project1,
     description:
@@ -80,13 +88,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
     link:'Link - https://anikk-portfolio.vercel.app'
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  
   
 ];
 
