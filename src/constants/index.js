@@ -57,12 +57,12 @@ export const PROJECTS = [
     link : ""
   },
   {
-    title: "Buy Now Pay Later",
-    image: project1,
+    title: "Email Writer AI-Assistant - Plugin",
+    image: extension,
     description:
-      "A Retail Company has introduced “Buy now pay later” (BNPL) feature within the mobile app platform. We need to predict if a customer will ignore or enroll in the BNPL feature. The problem of predicting whether a customer will ignore or enroll in the Buy Now, Pay Later (BNPL) feature is significant for several reasons, both for a business and consumer perspective.",
-    technologies: ["Data Science","Exploratory Data Analysis(EDA)"],
-    location:"Univeristy at Buffalo, 2024"
+      "This project involves creating an AI-powered email writer that helps users draft replies to emails they receive. The system analyzes the content, tone, and context of the received email and generates a concise, professional, and contextually relevant response. It supports customization, ensuring the reply aligns with the user's communication style and purpose, streamlining the email correspondence process efficiently.",
+    technologies: ["Springboot","Java","Chorme Extension", "NextJS", "Material UI", "llama 2.0"],
+    link: 'Link - https://github.com/Anikkk/AI-Assistant-Email-Writer'
   },
   {
     title: "AI Short Video Generator",
@@ -71,14 +71,14 @@ export const PROJECTS = [
       "An AI application for generating short video based on the prompt given by the user.",
     technologies: ["NextJS","Claude","Firebase","NeonDB","Drizzle","shadcn/UI" ],
     link: 'Link - https://ai-short-video-generator-theta.vercel.app/dashboard',
-  },
+  }, 
   {
-    title: "Email Writer AI-Assistant - Plugin",
-    image: extension,
+    title: "Buy Now Pay Later",
+    image: project1,
     description:
-      "This project involves creating an AI-powered email writer that helps users draft replies to emails they receive. The system analyzes the content, tone, and context of the received email and generates a concise, professional, and contextually relevant response. It supports customization, ensuring the reply aligns with the user's communication style and purpose, streamlining the email correspondence process efficiently.",
-    technologies: ["Springboot","Java","Chorme Extension", "NextJS", "Material UI", "llama 2.0"],
-    link: 'Link - https://github.com/Anikkk/AI-Assistant-Email-Writer'
+      "A Retail Company has introduced “Buy now pay later” (BNPL) feature within the mobile app platform. We need to predict if a customer will ignore or enroll in the BNPL feature. The problem of predicting whether a customer will ignore or enroll in the Buy Now, Pay Later (BNPL) feature is significant for several reasons, both for a business and consumer perspective.",
+    technologies: ["Data Science","Exploratory Data Analysis(EDA)"],
+    location:"Univeristy at Buffalo, 2024"
   },
   {
     title: "Portfolio Website",
@@ -88,8 +88,6 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
     link:'Link - https://anikk-portfolio.vercel.app'
   },
-  
-  
 ];
 
 export const CONTACT = {
