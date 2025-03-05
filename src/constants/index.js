@@ -5,8 +5,8 @@ import ai from "../assets/projects/ai-short-gen.png";
 import therapy from  "../assets/projects/therapy.gif";
 import extension from  "../assets/projects/extension.gif";
 
-export const HERO_CONTENT = `Computer Science graduate student with 4+ years of experience specializing in backend development and data
-engineering. Strong Object-oriented programming skills and experienced in cloud technologies, known for
+export const HERO_CONTENT = `Computer Science graduate student with 3+ years of experience in software development and a strong passion for AI/ML.
+Strong Object-oriented programming skills and experienced in cloud technologies, known for
 building and delivering high-quality, scalable and modular RESTful microservices to enhance user experiences.
 Committed to staying current with industry trends and continuously improving skills.`;
 
@@ -49,11 +49,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "MindCare.ai",
+    title: "Therapy.ai",
     image: therapy,
     description:
-      "Introducing MindCare.ai: Your 24/7 AI Mental Health Companion.MindCare.ai was born during this weekend's hackathon - our vision for a voice-enabled AI mental health companion built with privacy and empathy at its core.",
-    technologies: ["ReactJS, FastAPI, Fine tuned LLM on Ollama"],
+      "Introducing Therapy.ai: Your 24/7 AI Mental Health Companion.Therapy.ai was born during this weekend's hackathon - our vision for a voice-enabled AI mental health companion built with privacy and empathy at its core.",
+    technologies: ["ReactJS", "FastAPI", "Fine tuned LLM on Ollama"],
     link : ""
   },
   {
